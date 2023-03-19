@@ -19,7 +19,8 @@ square.width = square.height = squareWidth;
 square.tint = 0xea985d;
 
 app.stage.addChild(square);
-//this is where i start
+
+
 app.ticker.add((delta) => {
   const cursorPosition = app.renderer.plugins.interaction.mouse.global;
   let angle =
